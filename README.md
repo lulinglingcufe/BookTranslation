@@ -64,14 +64,14 @@
 ## 3. 关于引用
 * 翻译中出现了一些引用，在本模板中没有考虑LaTeX中加入引用。
 
-![](picture/ref.JPG)
+![](picture/reference.JPG)
 
 * ```BookForTranslation\FigsCodeLatex\BibBook.bib ```等```.bib```文件是原书中LaTeX的一些引用。
 
-![](picture/ref2.JPG)
+![](picture/reference2.JPG)
 
 
-![](picture/ref3.JPG)
+![](picture/reference3.JPG)
 
 ## 4. 可供参考
 本人翻译的第一章```zjucs_thesis\data\chap1.tex```可供参考。
