@@ -2,8 +2,8 @@
 * 在浙大博士论文模板```zjucs_thesis```的基础上，结合```BookForTranslation```文件，初步设置了翻译排版格式。 
 * 本人使用的是是ctex套装，winEdt编辑器。这是ctex套装的下载地址 http://www.ctex.org/CTeXDownload
 ## 1. 一些说明
-1.```zjucs_thesis\main.tex```可以使用xelatex引擎编译。如果不想看其他章节的内容，只要在```zjucs_thesis\main.tex```中把那部分注释掉即可。
-模板中也注释了原有的“参考文献”等部分，如下所示。
+1.```zjucs_thesis\main.tex```可以使用```xelatex```引擎编译。如果不想看其他章节的内容，只要在```zjucs_thesis\main.tex```中把那部分注释掉即可。
+模板中也注释了原有的“参考文献”等部分，LaTeX代码如下所示。
 ```
 ......
 %  \chaptermarknn{参考文献}
@@ -21,7 +21,7 @@
 ## 2. 关于图片插入
 * 以第一章为例，应当在```zjucs_thesis\data\chap1.tex```中进行翻译内容撰写。其他章节依次增加```chapN.tex```。
 * ```BookForTranslation\FigsCodeLatex\Figs```文件夹下是本书所使用的全部图片。因此本模板已经将其复制到```zjucs_thesis```模板中，此时图片在```zjucs_thesis\Figs```文件夹下。
-* ```BookForTranslation\FigsCodeLatex\Set-UID.tex```文件中包含所有该章节插入代码段和图片的相应LaTeX代码。如下所示：
+* ```BookForTranslation\FigsCodeLatex\Set-UID.tex```文件中包含所有该章节插入代码段和图片的相应LaTeX代码。代码如下所示：
 
 ```
 \newcommand{\suidFigs}{Figs/Set-UID/Figures}
@@ -69,6 +69,8 @@
 * ```BookForTranslation\FigsCodeLatex\BibBook.bib ```等```.bib```文件是原书中LaTeX的一些引用。
 
 ![](picture/ref2.JPG)
+
+
 ![](picture/ref3.JPG)
 
 ## 4. 可供参考
